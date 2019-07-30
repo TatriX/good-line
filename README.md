@@ -1,14 +1,14 @@
-# mood-line
-### Version 1.1.2
+# good-line
+### Version 1.0.0
 
-[![MELPA](https://melpa.org/packages/mood-line-badge.svg)](https://melpa.org/#/mood-line)
-[![MELPA Stable](https://stable.melpa.org/packages/mood-line-badge.svg)](https://stable.melpa.org/#/mood-line)
 
 ## About
 
-`mood-line` is a minimal mode-line configuration that aims to replicate some of the features of the
-[doom-modeline](https://github.com/seagle0128/doom-modeline)
-package.
+`good-line` is a minimal mode-line configuration that aims to
+replicate some of the features of the [doom-modeline](https://github.com/seagle0128/doom-modeline) package.
+
+This is a fork of [mood-line](https://gitlab.com/jessieh/mood-line). I wanted to fix several issues, but
+haven't got an answer from so the fork.
 
 ## Features
 
@@ -28,18 +28,8 @@ package.
 
 ## Installation
 
-To enable `mood-line`, place this in your configuration file after loading the package:
+To enable `good-line`, place this in your configuration file after loading the package:
 
-`(mood-line-mode)`
+`(good-line-mode)`
 
-Disabling `mood-line` can be accomplished by toggling `mood-line-mode` off.
-
-## Known Issues
-
-* No known issues.
-
-If you experience any issues with this package, please
-[open an issue](https://gitlab.com/jessieh/mood-line/issues/new)
-on the issue tracker.
-
-Suggestions for improvements and feature requests are always appreciated, as well!
+Disabling `good-line` can be accomplished by toggling `good-line-mode` off.
