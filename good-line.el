@@ -206,7 +206,7 @@
        (if buffer-read-only
            " ∅ "
          (if (buffer-modified-p) " ∗ " "   ")))
-     'face 'mood-line-modified))
+     'face 'good-line-modified))
 
 (defun good-line-segment-buffer-name ()
   "Displays the name of the current buffer in the mode-line."
