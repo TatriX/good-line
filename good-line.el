@@ -208,10 +208,6 @@
          (if (buffer-modified-p) " ∗ " "   ")))
      'face 'good-line-modified))
 
-(defun good-line-segment-buffer-name ()
-  "Displays the name of the current buffer in the mode-line."
-  (concat (propertize "%b" 'face 'mode-line-buffer-id) "  "))
-
 (defun good-line-segment-anzu ()
   "Displays color-coded anzu status information in the mode-line (if available)."
   (when (and (boundp 'anzu--state) anzu--state)
@@ -314,7 +310,8 @@
                           ;; Left
                           (format-mode-line
                            '((:eval (good-line-segment-modified))
-                             (:eval (good-line-segment-buffer-name))
+                             mode-line-buffer-identification
+                             "   "
                              (:eval (good-line-segment-anzu))
                              (:eval (good-line-segment-multiple-cursors))
                              (:eval (good-line-segment-position))))
