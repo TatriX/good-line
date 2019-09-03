@@ -323,9 +323,9 @@
                           (format-mode-line
                            '((:eval (good-line-segment-vc))
                              (:eval (good-line-segment-major-mode))
-                             (:eval (good-line-segment-global-mode-string))
                              (:eval (good-line-segment-flycheck))
                              (:eval (good-line-segment-process))
+                             (:eval (good-line-segment-global-mode-string))
                              " ")))))))
     (progn
 
